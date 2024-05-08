@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shion sato' Portfolio</title>
+        <!--googleフォント-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif+JP&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+        <!--css-->
+        <link rel="stylesheet" href="portfolio_header.css" type="text/css">
+        <link rel="stylesheet" href="portfolio_main.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h2><a class="pagetop" href="#">Shion sato's Portfolio</a></h2>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#training">Training</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <!--about-->
+            <section class="about" id="about">
+                <h2 class="title">About</h2>
+                <p class="text">
+                    職業訓練で学んだことを元に、これからの就職活動とキャリア形成の<br>
+                    足掛かりとするために作成したポートフォリオサイトです。<br>
+                    無駄なく分かりやすい、洗練されたwebサイト制作を。<br>
+                </p>
+            </section>
+            <!--profile-->
+            <section class="profile" id="profile">
+                <h2 class="title">Profile</h2>
+                <div>
+                    <p class="text">
+                        　sato　shion<br>
+                        　佐藤　史恩<br>
+                        <br>
+                        1993年4月22日生　福島県会津若松市出身。<br>
+                        高校卒業後進学のため上京するが家庭の事情も重なり大学中退と同時に地元へ戻る。<br>
+                        以降約7年間、長野へ居を移しつつ飲食、販売などのサービス業に従事。<br>
+                        現在はIT業界へのキャリア転換を図るため職業訓練を受講中。令和6年7月修了予定。<br>
+                        <br>
+                        ◇資格<br>
+                        　・普通自動車第一種運転免許（平成26年 取得）<br>
+                        　・基本情報処理技術者試験（平成30年 取得）<br>
+                        ◇趣味<br>
+                        　・CLIP STUDIOを使用したキャラクターイラスト制作<br>
+                        　・ゲーム、アニメ等の娯楽作品<br>
+                        　・近年ソロキャンプも始めました<br>
+                    </p>
+                    <img src="image/IMG_27041.jpg" alt="image">
+                </div>
+            </section>
+            <!--works-->
+            <section class="works" id="works">
+                <h2 class="title">Works</h2>
+                <div class="container">
+                    <button class="modal-toggle btn-example" data-modal="modalOne"><img class="container-img" src="image/172123.jpg"><p class="text">自己紹介HP</p></button>
+                    <button class="modal-toggle btn-example" data-modal="modalTwo"><img class="container-img" src="image/000839.jpg"><p class="text">ポートフォリオサイト</p></button>
+                    <button class="modal-toggle btn-example" data-modal="modalThree"><img class="container-img" src="image/就活用.jpg"><p class="text">イラスト制作</p></button>
+                  </div>
+                  <!--モーダル1-->
+                  <div id="modalOne" class="modal">
+                     <div class="modal-content">
+                       <div class="modal-top">
+                         <span class="modal-close">×</span>
+                        </div>
+                       <div class="modal-container">
+                        <img class="img" src="image/172123.jpg" alt="">
+                        <p class="modal-text">
+                            職業訓練校のhttp最終課題で作成した自己紹介HPです。<br>
+                            デザイン、コード等全てゼロの状態から、訓練で使用した教材やインターネット等で調べながら作成しました。特に趣味のページのコンテンツ量とユーザビリティに力を入れました。<br><br>
+                            ◇制作期間<br>　約2週間<br><br>
+                            ◇使用ソフト<br>　visual studio code（コーディング）<br><br>
+                            URL:<a href="https://blancmgt.github.io/profile_hp/" target="_blank">https://blancmgt.github.io/profile_hp/</a><br>
+                        </p>
+                       </div>
+                     </div>
+                  </div>
+                  <!--モーダル2-->
+                  <div id="modalTwo" class="modal">
+                     <div class="modal-content">
+                       <div class="modal-top">
+                         <span class="modal-close">×</span>
+                        </div>
+                       <div class="modal-container">
+                        <img class="img" src="image/001100.jpg" alt="">
+                        <p class="modal-text">
+                            IT業界未経験のため就職活動に必要になると考え作成しました。<br>
+                            必要な情報をシンプルに1ページのみで完結させることを目標に、ゼロの状態からデザイン、コーディングを行いました。<br><br>
+                            ◇制作期間<br>　約1週間<br><br>
+                            ◇使用ソフト<br>　visual studio code（コーディング）<br>
+                            　CLIP STDIO PAINT（画像加工）<br>
+                        </p>
+                       </div>
+                     </div>
+                  </div>
+                  <!--モーダル3-->
+                  <div id="modalThree" class="modal">
+                     <div class="modal-content">
+                       <div class="modal-top">
+                         <span class="modal-close">×</span>
+                        </div>
+                       <div class="modal-container">
+                        <img class="img" src="image/就活用.jpg" alt="">
+                        <p class="modal-text">
+                            キャラクターイラストの制作、SNS等での公開をしています。<br>
+                            現在は趣味として制作するだけでなく、職業訓練中の収入の助けとするためネット上で有償のリクエスト依頼を受けています。<br><br>
+                            ◇使用ソフト<br>
+                            　CLIP STUDIO PAINT<br>
+                        </p>
+                       </div>
+                     </div>
+                  </div>
+            </section>
+            <!--training-->
+            <section class="training" id="training">
+                <h2 class="title">Training</h2>
+                <p class="text">令和6年1月～同年7月　ポリテクセンター長野での公共職業訓練を受講　幅広いIT分野の基礎的な知識を修得<br>※半透明の項目はカリキュラムに含まれており修得予定</p>
+                <div class="training-list">
+                    <p class="skill">Word</p>
+                    <p class="skill">Excel</p>
+                    <p class="skill">C言語</p>
+                    <p class="skill">PLC<br>ラダープログラム</p>
+                    <p class="skill">HTML</p>
+                    <p class="skill">CSS</p>
+                    <p class="skill">javascript</p>
+                    <p class="skill">PHP</p>
+                    <p class="skill">MySQL</p>
+                    <p class="skill">Linux基本操作</p>
+                    <p class="skill">サーバ構築技術</p>
+                    <p class="skill">ネットワーク<br>構築技術</p>
+                    <p class="skill yet">Java</p>
+                    <p class="skill yet">Android<br>アプリ開発</p>
+                </div>
+            </section>
+            <!--contact-->
+            <section class="contact" id="contact">
+                <h2 class="title">Contact</h2>
+                <div class="mail">
+                    <img src="image/mail8.png" alt=""><p> blancmgt@gmail.com</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">&copy; 2024 shion sato</p>
+        </footer>
+        <script src="portfolio_script.js" async></script>
+    </body>
+</html>

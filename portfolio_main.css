@@ -1,0 +1,176 @@
+main{
+  margin-top: 100px;
+}
+section{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.title{
+  font-family: "Merriweather", serif;
+  color: rgb(105, 105, 105);
+  font-size: 200%;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.about .title{
+  font-family: "Merriweather", serif;
+  color: rgb(105, 105, 105);
+  font-size: 200%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.text{
+  font-family: "Noto Serif JP", serif;
+  color: rgb(75, 75, 75);
+  white-space: nowrap;
+}
+.about{
+  display: flex;
+  gap: 2rem;
+}
+.profile div{
+  margin-top: 0;
+  display: flex;
+  gap: 20px;
+}
+.profile img{
+  width: 240px;
+  height: auto;
+  margin-top: 25px;
+  border-radius: 80px 20px 80px 20px;
+}
+
+/*works*/
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+.container button{
+  border: 1px solid #cecece;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+.container button .text{
+  margin: 5px;
+}
+.container-img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: left top;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 8887;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: all 1s ease-in-out;
+}
+.modal-container .img {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: auto;
+}
+.modal-container p {
+    margin-bottom: 10px;
+}
+.modal-container p:last-child {
+    margin-bottom: 0;
+}
+.modal-content {
+    background: #FFF;
+    overflow-y: auto;
+    padding: 20px 25px;
+    width: 80%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    max-height: 90%;
+    animation: show 0.6s linear 0s;
+    filter: drop-shadow(0px 2px 6px #777);
+}
+.modal-top {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.modal-close {
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 0 10px;
+}
+.modal-close:hover, .modal-close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-title {
+  color: #FFF;
+}
+.modal-text{
+  font-family: "Noto Serif JP", serif;
+  color: rgb(105, 105, 105);
+}
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+/*training*/
+.training-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.skill{
+  color: rgb(119, 119, 119);
+  background: rgb(245, 249, 255);
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: rgb(180, 180, 180);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.yet{
+  opacity: 0.5;
+}
+.mail{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mail img{
+  width: 16px;
+  height: auto;
+}
+.mail p{
+  display: inline;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  color: rgb(75, 75, 75);
+}
